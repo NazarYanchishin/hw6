@@ -41,7 +41,7 @@ body {
     content: "";
     background-image: url(./img/wave.png);
     position: absolute;
-    top: 660px;
+    top: 665px;
     left: 0;
     background-repeat: repeat;
     height: 20px;
@@ -53,6 +53,7 @@ body {
 
 .logo {
     display: flex;
+    padding: 5px 17px;
 }
 
 .bottom_KYLIE {
@@ -91,7 +92,16 @@ nav ul li a:hover {
     color: #d4416a;
     position: relative;
 }
-
+nav ul li:first-child:after {
+    display: block;
+    position: relative;
+    left: 19px;
+    top: 6px;
+    height: 2px;
+    background-color: #d4416a;
+    content: "";
+    width: 82%;
+}
 .phone p span {
     font-weight: bold;
 }
@@ -137,7 +147,7 @@ nav ul li a:hover {
     color: #d4416a;
 }
 
-.left_girl img {
+.price_mb{
     display: none;
 }
 
@@ -295,7 +305,7 @@ button {
         content: "";
         background-image: url(./img/wave.png);
         position: absolute;
-        top: 732px;
+        top: 744px;
         left: 0;
         background-repeat: repeat;
         height: 20px;
@@ -406,6 +416,19 @@ button {
     }
 }
 @media (max-width: 880px) {
+    .header_cont:after {
+        content: "";
+        background-image: url(./img/wave.png);
+        position: absolute;
+        top: 740px;
+        left: 0;
+        background-repeat: repeat;
+        height: 20px;
+        width: 100%;
+        background-size: 36px 20px;
+        z-index: 1;
+        transform: rotate(-180deg);
+    }
     .girl{
         background-image: url("./img/bg800px.jpg");
         background-position: 0 -148px;
@@ -454,7 +477,7 @@ button {
         content: "";
         background-image: url(./img/wave.png);
         position: absolute;
-        top: 880px;
+        top: 888px;
         left: 0;
         background-repeat: repeat;
         height: 20px;
@@ -509,7 +532,7 @@ button {
         height: 323px;
     }
 
-    .right_girl {
+    .price{
         display: none;
     }
 
@@ -577,4 +600,33 @@ button {
         font-size: 18px;
         line-height: 150%;
     }
+    .price_mb{
+        display: block;
+    }
+    .price_mb h2 {
+        top: 120px;
+        left: 81px;
+        position: absolute;
+        max-width: 10px;
+        font-size: 22px;
+        line-height: 1;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        transform: rotate(15deg);
+        text-transform: uppercase;
+    }
+    .price_mb span {
+        top: 146px;
+        left: 75px;
+        position: absolute;
+        font-size: 17px;
+        line-height: 1;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        transform: rotate(15deg);
+        text-transform: uppercase;
+    }
+
 }
