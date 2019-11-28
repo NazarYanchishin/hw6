@@ -1,0 +1,580 @@
+@font-face {
+    font-family: GothamPro;
+    src: url('./fonts/GothamPro.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: GothamPro-Bold;
+    src: url('./fonts/GothamPro-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: GothamPro-Light;
+    src: url('./fonts/GothamPro-Light.ttf ') format("truetype");
+}
+
+@font-face {
+    font-family: Bebas-Neue;
+    src: url('./fonts/ofont.ru_Bebas-Neue.ttf') format("truetype");
+}
+
+
+body {
+    font-family: GothamPro;
+    background: #f0ebe8;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    max-width: 1554px;
+    margin: auto;
+}
+
+.header_cont {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.header_cont:after {
+    content: "";
+    background-image: url(./img/wave.png);
+    position: absolute;
+    top: 660px;
+    left: 0;
+    background-repeat: repeat;
+    height: 20px;
+    width: 100%;
+    background-size: 36px 20px;
+    z-index: 1;
+    transform: rotate(-180deg);
+}
+
+.logo {
+    display: flex;
+}
+
+.bottom_KYLIE {
+    font-size: 14.5px;
+    font-weight: 300;
+    line-height: 1.3;
+    color: #d4416a;
+}
+
+.KYLIE {
+    font-family: babes;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    max-width: 618px;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 9px 0 0 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s
+}
+
+nav ul li a:hover {
+    color: #d4416a;
+    position: relative;
+}
+
+.phone p span {
+    font-weight: bold;
+}
+
+.phone p:before {
+    content: url("./img/phone.svg");
+}
+
+.girl {
+    background-image: url(./img/bg.jpg);
+    display: flex;
+    max-width: 1529px;
+    height: 600px;
+    padding: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.girl:after {
+    content: "";
+    background-image: url(./img/wave.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: repeat;
+    height: 20px;
+    background-size: 36px 21px;
+    width: 100%;
+}
+
+.left_girl {
+    width: 55%;
+
+}
+
+.left_girl h1 {
+    font-family: GothamPro-Bold;
+    color: #333333;
+    font-size: 38px;
+}
+
+.left_girl h1 span {
+    color: #d4416a;
+}
+
+.left_girl img {
+    display: none;
+}
+
+.left_girl p {
+    line-height: 1.5;
+    margin: 26px 0 35px 0;
+    max-width: 445px;
+    font-size: 18px;
+}
+
+.left_girl button {
+    max-width: 290px;
+    height: 56px;
+    background: #d4416a;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    margin: 47px 0 0 75px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid #ab3456;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    border-bottom: 3px solid #d4416a;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    background: #d4416a;
+}
+
+button a span {
+    font-weight: bold;
+}
+
+.right_girl {
+}
+
+.price {
+    position: relative;
+}
+
+.price h2 {
+    position: absolute;
+    max-width: 10px;
+    top: 38px;
+    left: 46px;
+    font-size: 28px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    transform: rotate(15deg);
+    text-transform: uppercase;
+}
+
+.price span {
+    position: absolute;
+    top: 69px;
+    left: 48px;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    transform: rotate(15deg);
+    text-transform: uppercase;
+}
+
+.kylie p {
+    font-family: GothamPro-Bold;
+    font-size: 36px;
+    color: #d4416a;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.kylie_cont {
+    display: flex;
+    margin: 58px 0 0 0;
+    flex-wrap: wrap;
+
+}
+
+.right_kylie {
+    position: relative;
+    width: 50%;
+}
+
+.right_kylie p {
+    max-width: 700px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #333333;
+    font-family: GothamPro;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+button {
+    max-width: 290px;
+    height: 56px;
+    background: #d4416a;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    margin: 38px 0 0 197px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid #ab3456;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.pomade img {
+
+}
+@media (max-width: 1293px) {
+    .pomade{
+        display: none;
+    }
+}
+@media (max-width: 1250px) {
+
+    .girl {
+        background-image: url(./img/bg.jpg);
+        display: flex;
+        max-width: 1529px;
+        height: 600px;
+        padding: 50px;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: -171px 0;
+
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .header_cont {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .header_cont:after {
+        content: "";
+        background-image: url(./img/wave.png);
+        position: absolute;
+        top: 732px;
+        left: 0;
+        background-repeat: repeat;
+        height: 20px;
+        width: 100%;
+        background-size: 36px 20px;
+        z-index: 1;
+        transform: rotate(-180deg);
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .bottom_KYLIE {
+        font-size: 14.5px;
+        font-weight: 300;
+        line-height: 1.3;
+        color: #d4416a;
+    }
+
+    .KYLIE {
+        font-family: babes;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    nav {
+        order: 1;
+        max-width: 100%;
+        padding: 30px 0 20px;
+        font-size: 18px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    nav ul li a {
+        /*padding: 0 0 0 20px;*/
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+
+    }
+
+    nav ul li a:hover {
+        color: #d4416a;
+        position: relative;
+    }
+
+    .phone p span {
+        font-weight: bold;
+    }
+
+    .phone p:before {
+        content: url("./img/phone.svg");
+    }
+
+    .girl {
+        background-image: url(./img/bg.jpg);
+        display: flex;
+        max-width: 1529px;
+        height: 600px;
+        padding: 50px;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: -350px -1px;
+    }
+
+    .price img {
+        position: absolute;
+        top: 108px;
+        height: 300px;
+
+    }
+
+    .price span {
+        position: absolute;
+        top: 149px;
+        left: 27px;
+        font-size: 16px;
+        line-height: 1;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        transform: rotate(15deg);
+        text-transform: uppercase;
+    }
+
+    .price h2 {
+        position: absolute;
+        max-width: 10px;
+        top: 127px;
+        left: 32px;
+        font-size: 22px;
+        line-height: 1;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        transform: rotate(15deg);
+        text-transform: uppercase;
+    }
+
+    .pomade img {
+        display: none;
+    }
+}
+@media (max-width: 880px) {
+    .girl{
+        background-image: url("./img/bg800px.jpg");
+        background-position: 0 -148px;
+    }
+    .price img {
+        position: absolute;
+        top: 39px;
+        height: 400px;
+    }
+
+    .price h2 {
+        position: absolute;
+        max-width: 10px;
+        top: 60px;
+        left: 35px;
+        font-size: 30px;
+        line-height: 1;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        transform: rotate(15deg);
+        text-transform: uppercase;
+    }
+    .price span {
+        position: absolute;
+        top: 93px;
+        left: 30px;
+        font-size: 24px;
+        line-height: 1;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        transform: rotate(15deg);
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 100%;
+        margin: 0 0 20px 0;
+        justify-content: center;
+    }
+
+    .header_cont:after {
+        content: "";
+        background-image: url(./img/wave.png);
+        position: absolute;
+        top: 880px;
+        left: 0;
+        background-repeat: repeat;
+        height: 20px;
+        width: 100%;
+        background-size: 36px 20px;
+        z-index: 1;
+        transform: rotate(-180deg);
+    }
+
+    nav {
+        display: none;
+    }
+
+    .phone {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .phone p {
+        font-size: 14px;
+    }
+
+    .phone p span {
+        font-size: 14px;
+    }
+
+    .phone p:before {
+        display: none;
+    }
+
+    .girl {
+        display: block;
+        background-color: #f1f1f1;
+        background-image: none;
+        height: 700px;
+    }
+
+    .left_girl {
+        width: 100%;
+    }
+
+    .left_girl h1 {
+        font-family: GothamPro-Bold;
+        color: #333333;
+        font-size: 24px;
+        height: 48px;
+    }
+
+    .left_girl img {
+        display: block;
+        height: 323px;
+    }
+
+    .right_girl {
+        display: none;
+    }
+
+    .left_girl p {
+        line-height: 1.5;
+        margin: 87px 0 35px 0;
+        max-width: 445px;
+        font-size: 18px;
+    }
+
+    .left_girl button {
+        max-width: 290px;
+        height: 56px;
+        background: #d4416a;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 5px;
+        border-bottom: 5px solid #ab3456;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: block;
+    }
+
+    .button {
+        position: absolute;
+        top: 387px;
+        left: -25px;
+        width: 100%;
+    }
+
+    .right_kylie {
+        position: relative;
+        width: 100%;
+    }
+
+    .left_kylie img {
+        margin: 0 0 0 98px;
+        height: 184px;
+    }
+
+    .right_kylie button {
+        max-width: 290px;
+        height: 56px;
+        background: #d4416a;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        margin: 38px 0 0 45px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 5px;
+        border-bottom: 5px solid #ab3456;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .right_kylie p {
+        max-width: 700px;
+        margin-top: 50px;
+        margin-left: 10px;
+        color: #333333;
+        font-family: GothamPro;
+        font-size: 18px;
+        line-height: 150%;
+    }
+}

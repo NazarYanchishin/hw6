@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18" height="18">
+	<defs>
+		<image width="18" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAC50lEQVQ4T3VTa4iMURh+3jM7bov8ID+WlHvtnBm3covm+1w2QsTWpigKc5Z1iaKkxKL8wto5yy/lVhRJLlm752sLtW2Y+YbkkkKSsCm0svu9OmNmG9Ps9+uc57zv877v8z4foeDrWL550IybZ38VYvaciautTKgH8IKBhqjRl4pjKA/4jmoGMA1AszS6pjAwtXhPuej+NRfgdWCsAvBGMFVVeslP+bgske+oVwwMAoJNBHENQEoaPbO4qr0/nL1r4JABXdcBVAUkpsdaGx9bnHxX3QTDlUaXW+BZdXW/4MvwrlxnVdlCbqIeTIsY4mjUNN74V7z2JMDbgzCPjN1r+ky+oxgCMdmi04UdWJwZ9VFPH8g4iSoGbQCwBozb0tMrctq1MWGsNHqUJfqGHorJtuT7IqJuEJ2Qrck9efypm6gIMX1g4G7U6CU5WRhMNZaok4G9UaPP2ofH8+pGhMN/WsD0XRo9r1inJ/Gdw8rodydDrLRj+q46D8Ycq9F1MCZKoytzepwA0w5pdO9Gi8nSjrpDwEJpdNh3a+eA+QH57uZx4NDrHiEmTWlpfOkvUFEESIHZkV6TV2pzNpmYV0eM3s0HD4pM26ct2appR7UQMF4aPSZ7dxP7iOlYuCxUMbn59MdSZCUNaR3d/0foJ4G2RkwymSO7SkxrAi4bHfMaPuQTM07tIQA/IiZ5vJCsV4e0q6qJcaXQCr6rLoNhXb5MGn3Lj6t2JlQQMJgYDyKeXvqfswt+k1MA6gpHSsfVXiIcARAAeCeNHt+7duC+NHpR1tnFs2YcdZGBtYJpaqWXfGrfn8/fMqE7RDVR03Q4H/9qSd3Qrq7urwDOS6M3llyx7yirkwJhu2zVDX2JnYqrWYLwSAz/0r9Pr2Sc2vUMPsdAO3GwTXpnOkp0/zYAXkijl/ZJZJOyLha/rXMXA+gA8QXBoTZQT3nAdBtApzR6QkmNSo2RiiciQtB+MGYD6AegDEC7NHpZPv4v6Bc6N23wy1cAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="header">
+		<g id="Телефоны">
+			<use id="phone-call" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>
