@@ -29,6 +29,7 @@ body {
     margin: auto;
 }
 
+
 .header_cont {
     position: relative;
     display: flex;
@@ -109,7 +110,10 @@ nav ul li:first-child:after {
 .phone p:before {
     content: url("./img/phone.svg");
 }
-
+a{
+    color: black;
+    text-decoration: none;
+}
 .girl {
     background-image: url(./img/bg.jpg);
     display: flex;
